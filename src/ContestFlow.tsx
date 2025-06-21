@@ -58,7 +58,7 @@ export const ContestFlow = () => {
           from semifinals
         </li>
       </ul>
-
+      <h1>not the Staff</h1>
       <h2>not the speakers</h2>
       <p>(they are just holograms with voice recording)</p>
       <ul>
