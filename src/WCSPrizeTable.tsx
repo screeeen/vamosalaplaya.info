@@ -46,7 +46,7 @@ export const WCSPrizeTable = () => {
     <div id="wcsprizetable" style={{ textAlign: 'center' }}>
       <h2 className="animate__slideOutDown">
         €€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€ that you can
-        win (if you are good at skateboarding)
+        win (if you are good at skateboarding) and you can compete with the best skaters in the world for that weekend
       </h2>
       <img src={urlPrices} style={{ maxWidth: '100%' }} />
 

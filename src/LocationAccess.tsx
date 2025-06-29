@@ -3,6 +3,7 @@ import { samilMap } from './ContestData';
 import { SpotifyColumns } from './SpotifyColumns';
 import SpotifyIframe from './SpotifyIframe';
 import SpotifyIframe2 from './SpotifyIframe2';
+import AccommodationInfo from './AccomodationInfo';
 
 export const LocationAccess = () => {
   const urlPic = `${window.location.href}assets/images/vigo_top.png`;
@@ -283,6 +284,7 @@ export const LocationAccess = () => {
             </a>
           </li>
         </ul>
+        <div className="generaltext">{AccommodationInfo()}</div>
       </div>
     </>
   );

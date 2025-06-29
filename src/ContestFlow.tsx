@@ -89,6 +89,42 @@ export const ContestFlow = () => {
         </li>
       </ul>
 
+      <h2>course crew who want to see inverts on flat</h2>
+      <ul>
+        <li>
+          Ivan Rodriguez
+          He just skates 9AM and watches skate from tower...that's it
+        </li>
+        <li>
+          David Goiko
+          Best hawaian trippy shirts
+        </li>
+        <li>
+          Daniel Raposo
+          Making a photo archive without you know it
+        </li>
+        <li>
+          Marta Lago
+          Taking notes for a documentary but know is in the crew
+        </li>
+        <li>
+          Manuel Honorato
+          Best conversations on the shade, any topic, any time
+        </li>
+        <li>
+          Simon Ferreiro
+          Best conversations 2nd part
+        </li>
+        <li>
+          David Vazquez
+          Veteran here for the glory
+        </li>
+        <li>
+          Sandra Solano
+          Straight from Ireland to see your slams
+        </li>
+      </ul>
+
       <h2>judges with sore eyeballs</h2>
       <ul>
         <li>Iztok Sumatic(Head Judge)</li>

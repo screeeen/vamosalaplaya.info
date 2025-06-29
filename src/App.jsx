@@ -12,6 +12,7 @@ import 'animate.css';
 import './App.css';
 import KitschStar from './KitschStar.tsx';
 import { Skatepark } from './Skatepark.tsx';
+import AccommodationInfo from './AccomodationInfo.tsx';
 
 const App = () => {
   return (
