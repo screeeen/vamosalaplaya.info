@@ -17,7 +17,7 @@ const AccommodationInfo = () => {
           <strong>Amenities:</strong> 2 Bathrooms, 1 Kitchen
         </p>
         <a
-          href="https://homeygalicia.com/apartamentos-en-vigo/"
+          href="https://homeygalicia.com/"
           className="text-blue-600 underline"
           target="_blank"
           rel="noopener noreferrer"
