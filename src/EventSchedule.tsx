@@ -76,59 +76,63 @@ export const EventSchedule = () => {
   return (
     <div id="eventschedule">
       <h2>not the schedule</h2>
-      <table
-        style={{
-          width: '100%',
-          borderCollapse: 'collapse',
-          marginTop: '1rem',
-          fontSize: '.8rem',
-        }}
-      >
-        {/* <thead>
-          <tr style={{ backgroundColor: '#000', color: '#fff' }}>
-            <th style={{ border: '1px solid #ccc', padding: '0.5rem' }}>Day</th>
-            <th style={{ border: '1px solid #ccc', padding: '0.5rem' }}>
-              Time
-            </th>
-            <th style={{ border: '1px solid #ccc', padding: '0.5rem' }}>
-              Event
-            </th>
-          </tr>
-        </thead> */}
-        <tbody>
-          {schedule.map(({ day, events }) =>
-            events.map(([time, event], idx) => {
-              const isHighlighted = highlightedEvents.includes(event);
-              const rowStyle = isHighlighted
-                ? {
-                    backgroundColor: 'yellow',
-                    color: 'black',
-                    fontWeight: 'bold',
-                  }
-                : {};
-              return (
-                <tr key={`${day}-${idx}`} style={rowStyle}>
-                  <td
-                    style={{ border: '1px solid #eeeeeeee', padding: '0.5rem' }}
-                  >
-                    {idx === 0 ? <strong>{day}</strong> : ''}
-                  </td>
-                  <td
-                    style={{ border: '1px solid #eeeeeeee', padding: '0.5rem' }}
-                  >
-                    {time}
-                  </td>
-                  <td
-                    style={{ border: '1px solid #eeeeeeee', padding: '0.5rem' }}
-                  >
-                    {event}
-                  </td>
-                </tr>
-              );
-            })
-          )}
-        </tbody>
-      </table>
+
+      {schedule.map(({ day, events }) => (
+        <div key={day} style={{ marginBottom: '2rem' }}>
+          <h3 style={{ margin: '1rem 0 0.5rem' }}>{day}</h3>
+          <table
+            style={{
+              width: '100%',
+              borderCollapse: 'collapse',
+              fontSize: '.8rem',
+            }}
+          >
+            <thead>
+              <tr style={{ backgroundColor: '#000', color: '#fff' }}>
+                <th style={{ border: '1px solid #ccc', padding: '0.5rem' }}>
+                  Time
+                </th>
+                <th style={{ border: '1px solid #ccc', padding: '0.5rem' }}>
+                  Event
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {events.map(([time, event], idx) => {
+                const isHighlighted = highlightedEvents.includes(event);
+                const rowStyle = isHighlighted
+                  ? {
+                      backgroundColor: 'yellow',
+                      color: 'black',
+                      fontWeight: 'bold',
+                    }
+                  : {};
+                return (
+                  <tr key={`${day}-${idx}`} style={rowStyle}>
+                    <td
+                      style={{
+                        border: '1px solid #eeeeeeee',
+                        padding: '0.5rem',
+                      }}
+                    >
+                      {time}
+                    </td>
+                    <td
+                      style={{
+                        border: '1px solid #eeeeeeee',
+                        padding: '0.5rem',
+                      }}
+                    >
+                      {event}
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      ))}
+
       <h3 style={{ color: 'gray' }}>
         as always with the great thrill and emotions that brings the weather
         forecast changes...
