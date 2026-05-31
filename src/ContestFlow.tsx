@@ -3,7 +3,7 @@ import React from 'react';
 export const ContestFlow = () => {
   return (
     <div id="contestflow">
-      <h2>not the contest flow</h2>
+      <h2>contest flow</h2>
 
       <h3>WCS Men Street</h3>
       <p>(circa 180 skaters + 30 pre seeded riders)</p>
@@ -58,8 +58,8 @@ export const ContestFlow = () => {
           from semifinals
         </li>
       </ul>
-      <h1>not the Staff</h1>
-      <h2>not the speakers</h2>
+      <h1>lovely staff</h1>
+      <h2>lovely speakers</h2>
       <p>(they are just holograms with voice recording)</p>
       <ul>
         <li>

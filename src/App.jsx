@@ -17,9 +17,9 @@ import AccommodationInfo from './AccomodationInfo.tsx';
 const App = () => {
   return (
     <>
-      <KitschStar />
-      <p>hey... how vigoes...?</p>
-      <h2>MARISQUIÑO 2026</h2>
+      <h1>hey... how vigoes...?</h1>
+      <h3>this is your fave lovely coach guide to</h3>
+      <h1>MARISQUIÑO 2026</h1>
       <h2 className="animate__animated animate__hinge">SUPER CONTEST!</h2>
       <h3>(your coach will be proud!)</h3>
       <p style={{ padding: '0 1rem' }}>
@@ -32,7 +32,7 @@ const App = () => {
       <div className="generaltext">{ContestData()}</div>
 
       <h1 style={{ textAlign: 'left', marginLeft: '1rem' }}>
-        not a (real) contest
+        a lovely contest
       </h1>
 
       <div className="generaltext">{WCSPrizeTable()}</div>

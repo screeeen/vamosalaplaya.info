@@ -75,7 +75,7 @@ export const EventSchedule = () => {
 
   return (
     <div id="eventschedule">
-      <h2>not the schedule</h2>
+      <h2>schedule</h2>
 
       {schedule.map(({ day, events }) => (
         <div key={day} style={{ marginBottom: '2rem' }}>

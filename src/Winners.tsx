@@ -14,7 +14,7 @@ export const Winners = () => {
 
   return (
     <div className="gridStyle">
-      <h2 className="title">not the 25 years winners!</h2>
+      <h2 className="title">25 years winners!</h2>
       <h2 className="categoryTitle adaptiveTitle">adaptive! (2024!)</h2>
       <div className="categoryContent">
         {dataReversed.map(yearResults => (

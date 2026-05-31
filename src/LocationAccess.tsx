@@ -1,8 +1,5 @@
 import React from 'react';
 import { samilMap } from './ContestData';
-import { SpotifyColumns } from './SpotifyColumns';
-import SpotifyIframe from './SpotifyIframe';
-import SpotifyIframe2 from './SpotifyIframe2';
 import AccommodationInfo from './AccomodationInfo';
 
 export const LocationAccess = () => {
@@ -42,7 +39,7 @@ export const LocationAccess = () => {
         <img src={urlPista1} />
         <img src={urlPista2} />
         <img src={urlPic2} />
-        <h1>nobody skates...</h1>
+        <h1>lovely skateboarding</h1>
         {/* <img src={urlBlur2} /> */}
         <img src={urlBlur3} />
         <img src={urlBlur4} />
@@ -52,8 +49,6 @@ export const LocationAccess = () => {
         <img src={urlBlur6} />
         <p>Lino Escuris 📷</p>
         <h1>there's no vibes...</h1>
-        <SpotifyIframe />
-        <SpotifyIframe2 />
         <img src={urlPuesta2} />
         {/* <img src={urlPuesta3} /> */}
         <img src={urlPuesta7} />
@@ -63,10 +58,10 @@ export const LocationAccess = () => {
         <img src={urlPuesta1} />
         <p>Raisa Abal 📷</p>
         <h2>said that...</h2>
-        <h1>this is not the location</h1>
+        <h1>location</h1>
         {samilMap()}
         <br />
-        <h1>don't travel</h1>
+        <h1>travel</h1>
         <h2 style={{ fontStyle: 'italic' }}>TRAINS!</h2>
         <ul>
           <li>
@@ -169,7 +164,7 @@ export const LocationAccess = () => {
           </li>
         </ul>
 
-        <h1>don't sleep</h1>
+        <h1>accomodation</h1>
         <h4>Hotels in town:</h4>
         <ul>
           {/* <li>
