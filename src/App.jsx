@@ -16,33 +16,33 @@ import AccommodationInfo from './AccomodationInfo.tsx';
 
 const App = () => {
   return (
-    <>THAT'S ALL FOLKS! Thank you for not coming! see u in 2026
-      {/* <KitschStar /> */}
-      {/* <p>hey... how vigoes...?</p> */}
-      {/* <h2>DON'T COME TO MARISQUIÑO 2025</h2>
+    <>
+      <KitschStar />
+      <p>hey... how vigoes...?</p>
+      <h2>MARISQUIÑO 2026</h2>
       <h2 className="animate__animated animate__hinge">SUPER CONTEST!</h2>
-      <h3>(your coach will be proud!)</h3> */}
-      {/* <p style={{ padding: '0 1rem' }}>
+      <h3>(your coach will be proud!)</h3>
+      <p style={{ padding: '0 1rem' }}>
         <strong style={{ color: 'green', fontStyle: 'italic' }}>
           "Nice grinds! I will send you the invoice for the coping, thank you"
         </strong>
         - Director congratulations to one (undisclosed) rider...
-      </p> */}
-      {/* <img src={`${window.location.href}assets/images/joke2.png`} /> */}
-      {/* <div className="generaltext">{ContestData()}</div> */}
+      </p>
+      <img src={`${window.location.href}assets/images/joke2.png`} />
+      <div className="generaltext">{ContestData()}</div>
 
-      {/* <h1 style={{ textAlign: 'left', marginLeft: '1rem' }}>
+      <h1 style={{ textAlign: 'left', marginLeft: '1rem' }}>
         not a (real) contest
-      </h1> */}
+      </h1>
 
-      {/* <div className="generaltext">{WCSPrizeTable()}</div>
+      <div className="generaltext">{WCSPrizeTable()}</div>
       <div className="generaltext">{EventSchedule()}</div>
       <div className="generaltext">{ContestFlow()}</div>
       <div className="generaltext">{Skatepark()}</div>
-      <div className="generaltext">{RegistrationInfo()}</div> */}
-      {/* <Winners /> */}
+      <div className="generaltext">{RegistrationInfo()}</div>
+      <Winners />
 
-      {/* <p style={{ padding: '0 1rem' }}>
+      <p style={{ padding: '0 1rem' }}>
         <strong style={{ color: 'pink', fontStyle: 'italic' }}>
           "We are not the champagne of skateboarding 👯‍♀️👯‍♀️👯‍♀️"
         </strong>{' '}
@@ -52,8 +52,8 @@ const App = () => {
       <h1 style={{ textAlign: 'left', marginLeft: '1rem' }}>
         some more reasons...
       </h1>
-      <h1 style={{ textAlign: 'left', marginLeft: '1rem' }}>...not to come</h1> */}
-      {/* <div className="generaltext">{Intro()}</div> */}
+      <h1 style={{ textAlign: 'left', marginLeft: '1rem' }}>...not to come</h1>
+      <div className="generaltext">{Intro()}</div>
     </>
   );
 };

@@ -21,7 +21,7 @@ export const TituloFechas = () => {
         `}
       </style>
       <h2>
-        7th, 8th, 9th & 10th <span style={animatedStyle}>August</span> 2025
+        6th, 7th, 8th & 9th <span style={animatedStyle}>August</span> 2026
       </h2>
     </>
   );

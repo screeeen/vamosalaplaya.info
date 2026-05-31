@@ -11,8 +11,8 @@ const AccommodationInfo = () => {
       <section>
         <h2 className="text-xl font-semibold mb-2">Stay Details</h2>
         <p>
-          <strong>Check-In:</strong> 7th August <br />
-          <strong>Check-Out:</strong> 11th August <br />
+          <strong>Check-In:</strong> 6th August <br />
+          <strong>Check-Out:</strong> 10th August <br />
           <strong>Duration:</strong> 4 nights <br />
           <strong>Accommodation:</strong> Beachfront apartment for 5 people <br />
           <strong>Beds:</strong> 3 individual beds + 1 double bed <br />

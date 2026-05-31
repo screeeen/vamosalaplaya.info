@@ -18,7 +18,7 @@ export const EventSchedule = () => {
 
   const schedule = [
     {
-      day: 'Thursday 7th August',
+      day: 'Thursday 6th August',
       events: [
         ['10:00 - 11:00', 'Check-in & Ramps Tuning'],
         ['11:00 - 16:00', 'Practice Street'],
@@ -28,7 +28,7 @@ export const EventSchedule = () => {
       ],
     },
     {
-      day: 'Friday 8th August',
+      day: 'Friday 7th August',
       events: [
         ['10:00 - 11:00', 'Check-in & Ramps Tuning'],
         ['10:00 - 14:50', 'Practice Street'],
@@ -42,7 +42,7 @@ export const EventSchedule = () => {
       ],
     },
     {
-      day: 'Saturday 9th August',
+      day: 'Saturday 8th August',
       events: [
         ['10:00 - 11:00', 'Check-in & Ramps Tuning'],
         ['10:00 - 13:15', 'Practice Street (Semifinalists only)'],
@@ -56,7 +56,7 @@ export const EventSchedule = () => {
       ],
     },
     {
-      day: 'Sunday 10th August',
+      day: 'Sunday 9th August',
       events: [
         ['10:00 - 11:00', 'Check-in & Ramps Tuning'],
         ['11:00 - 12:35', 'Practice Street'],

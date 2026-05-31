@@ -24,7 +24,7 @@ export const RegistrationInfo = () => {
         <li>Miniramp: 20€</li>
       </ul>
 
-      <h3>From August 2 to 7:</h3>
+      <h3>From August 2 to 6:</h3>
       <ul>
         <li>Miniramp & Street: 50€</li>
         <li>Street: 40€</li>
