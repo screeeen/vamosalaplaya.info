@@ -48,7 +48,7 @@ export const LocationAccess = () => {
         <img src={urlBlur7} />
         <img src={urlBlur6} />
         <p>Lino Escuris 📷</p>
-        <h1>there's no vibes...</h1>
+        <h1> lovely vibes...</h1>
         <img src={urlPuesta2} />
         {/* <img src={urlPuesta3} /> */}
         <img src={urlPuesta7} />
