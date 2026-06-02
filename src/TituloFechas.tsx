@@ -11,18 +11,8 @@ export const TituloFechas = () => {
   };
 
   return (
-    <>
-      <style>
-        {`
-          @keyframes rainbow {
-            0% { background-position: 0% }
-            100% { background-position: 100% }
-          }
-        `}
-      </style>
-      <h2>
-        6th, 7th, 8th & 9th <span style={animatedStyle}>August</span> 2026
-      </h2>
-    </>
+    <h2>
+      6th, 7th, 8th & 9th <span style={animatedStyle}>August</span> 2026
+    </h2>
   );
 };

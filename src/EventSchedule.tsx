@@ -80,6 +80,7 @@ export const EventSchedule = () => {
       {schedule.map(({ day, events }) => (
         <div key={day} style={{ marginBottom: '2rem' }}>
           <h3 style={{ margin: '1rem 0 0.5rem' }}>{day}</h3>
+          <div style={{ overflowX: 'auto', WebkitOverflowScrolling: 'touch' }}>
           <table
             style={{
               width: '100%',
@@ -130,6 +131,7 @@ export const EventSchedule = () => {
               })}
             </tbody>
           </table>
+          </div>
         </div>
       ))}
 

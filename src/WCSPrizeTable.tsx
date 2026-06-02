@@ -40,15 +40,14 @@ export const WCSPrizeTable = () => {
     </div>
   );
 
-  const urlPrices = `${window.location.href}assets/promoimages/prizes.jpg`;
+  // const urlPrices = `${window.location.href}assets/promoimages/prizes.jpg`;
 
   return (
     <div id="wcsprizetable" style={{ textAlign: 'center' }}>
-      <h2 className="animate__slideOutDown">
-        €€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€ that you can
-        win (if you are good at skateboarding) and you can compete with the best skaters in the world for that weekend
+      <h2 className="animate__slideOutDown" style={{ overflowWrap: 'break-word', wordBreak: 'break-all' }}>
+        €€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€ win if you are good at skateboarding or just have fun
       </h2>
-      <img src={urlPrices} style={{ maxWidth: '100%' }} />
+      {/* <img src={urlPrices} style={{ maxWidth: '100%' }} /> */}
 
       <div
         style={{

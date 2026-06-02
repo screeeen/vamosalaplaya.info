@@ -22,13 +22,7 @@ const App = () => {
       <h1>MARISQUIÑO 2026</h1>
       <h2 className="animate__animated animate__hinge">SUPER CONTEST!</h2>
       <h3>(your coach will be proud!)</h3>
-      <p style={{ padding: '0 1rem' }}>
-        <strong style={{ color: 'green', fontStyle: 'italic' }}>
-          "Nice grinds! I will send you the invoice for the coping, thank you"
-        </strong>
-        - Director congratulations to one (undisclosed) rider...
-      </p>
-      <img src={`${window.location.href}assets/images/joke2.png`} />
+      <img src={`${window.location.href}assets/promoimages/stablishing_shot.jpg`} />
       <div className="generaltext">{ContestData()}</div>
 
       <h1 style={{ textAlign: 'left', marginLeft: '1rem' }}>
@@ -48,12 +42,7 @@ const App = () => {
         </strong>{' '}
         - Course builder
       </p>
-      <div className="generaltext">{VigoSkateCitySpots()}</div>
-      <h1 style={{ textAlign: 'left', marginLeft: '1rem' }}>
-        some more reasons...
-      </h1>
-      <h1 style={{ textAlign: 'left', marginLeft: '1rem' }}>...not to come</h1>
-      <div className="generaltext">{Intro()}</div>
+      {/* <div className="generaltext">{VigoSkateCitySpots()}</div> */}
     </>
   );
 };

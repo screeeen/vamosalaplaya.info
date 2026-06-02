@@ -32,7 +32,7 @@ export const Winners = () => {
         ))}
       </div>
 
-      <h2 className="categoryTitle womentitle">street Women! (2013-2024)</h2>
+      <h2 className="categoryTitle womentitle">street Women! (2013-2025)</h2>
       <div className="categoryContent">
         {dataReversed.map(yearResults => (
           <>
@@ -49,7 +49,7 @@ export const Winners = () => {
         ))}
       </div>
 
-      <h2 className="categoryTitle miniramp">miniramp! (2016-2024)</h2>
+      <h2 className="categoryTitle miniramp">miniramp! (2016-2025)</h2>
       <div className="categoryContent">
         {dataReversed.map(yearResults => (
           <>
@@ -66,7 +66,7 @@ export const Winners = () => {
         ))}
       </div>
 
-      <h2 className="categoryTitle mentitle">street Men! (2001-2024)</h2>
+      <h2 className="categoryTitle mentitle">street Men! (2001-2025)</h2>
       <div className="categoryContent">
         {dataReversed.map(yearResults => (
           <>

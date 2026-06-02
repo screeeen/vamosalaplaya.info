@@ -27,8 +27,7 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  display: block;
   min-width: 320px;
   min-height: 100vh;
   background: linear-gradient(
@@ -39,14 +38,22 @@ body {
     #F3E5F5 100%
   );
   background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 h1 {
   font-family: 'Fredoka One', 'Comic Sans MS', cursive;
   font-size: 3.2em;
-  line-height: 1.1;
+  line-height: 1.25;
   color: #E91E8C;
   text-shadow: 3px 3px 0 #FFB6C1, 5px 5px 0 #CE93D8;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+h2 {
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 h2 {

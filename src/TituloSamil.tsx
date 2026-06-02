@@ -11,22 +11,8 @@ export const TituloSamil = () => {
   };
 
   return (
-    <>
-      <style>
-        {`
-          @keyframes sunsetFade {
-            0% {
-              background-position: 0% 50%;
-            }
-            100% {
-              background-position: 100% 50%;
-            }
-          }
-        `}
-      </style>
-      <h2>
-        <span style={sunsetStyle}>Samil Beach in Vigo</span>
-      </h2>
-    </>
+    <h2>
+      <span style={sunsetStyle}>Samil Beach in Vigo</span>
+    </h2>
   );
 };

@@ -29,7 +29,7 @@
 
 h1, h2 {
   padding: 0;
-  margin: 0.5rem 0;
+  margin: 1.2rem 0;
 }
 
 .gridStyle {
@@ -193,6 +193,68 @@ tr[style*="background-color: yellow"] {
   color: #5D2D8E !important;
 }
 
+@media (max-width: 640px) {
+  h1 {
+    font-size: 2.2em;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h1, h2 {
+    margin: 0.8rem 0;
+  }
+
+  /* disable wobble on mobile — rotated big text clips off-screen */
+  h1:nth-child(n),
+  h2:nth-child(n) {
+    transform: none;
+  }
+
+  .generaltext {
+    padding: 0.75rem;
+    margin: 0.25rem;
+    border-radius: 16px;
+  }
+
+  /* tables scroll horizontally instead of overflowing */
+  #eventschedule .table-wrapper,
+  #eventschedule > div {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #eventschedule table {
+    min-width: 280px;
+  }
+
+  /* prize tables stack vertically */
+  #wcsprizetable > div[style] {
+    flex-direction: column;
+  }
+
+  .cell {
+    margin: 0.4rem;
+    height: 70px;
+    width: 70px;
+  }
+
+  .title {
+    font-size: 1.6rem;
+    margin: 1rem 0.5rem;
+  }
+
+  .categoryTitle {
+    font-size: 1.1rem;
+  }
+
+  /* remove excessive padding from p tags */
+  p[style] {
+    padding: 0 0.5rem !important;
+  }
+}
+
 @media (min-width: 1024px) {
   #root {
     max-width: 1200px;
@@ -203,17 +265,17 @@ tr[style*="background-color: yellow"] {
 
 /* HEADING WOBBLE */
 h1:nth-child(6n + 1),
-h2:nth-child(6n + 1) { transform: rotate(-2deg); }
+h2:nth-child(6n + 1) { transform: rotate(-1deg); }
 h1:nth-child(6n + 2),
-h2:nth-child(6n + 2) { transform: rotate(-1deg); }
+h2:nth-child(6n + 2) { transform: rotate(-0.5deg); }
 h1:nth-child(6n + 3),
-h2:nth-child(6n + 3) { transform: rotate(-3deg); }
+h2:nth-child(6n + 3) { transform: rotate(-1.5deg); }
 h1:nth-child(6n + 4),
-h2:nth-child(6n + 4) { transform: rotate(2deg); }
+h2:nth-child(6n + 4) { transform: rotate(1deg); }
 h1:nth-child(6n + 5),
-h2:nth-child(6n + 5) { transform: rotate(2deg); }
+h2:nth-child(6n + 5) { transform: rotate(1deg); }
 h1:nth-child(6n),
-h2:nth-child(6n)     { transform: rotate(3deg); }
+h2:nth-child(6n)     { transform: rotate(1.5deg); }
 
 /* KITSCH STAR */
 .kitch-star-css {
@@ -285,4 +347,14 @@ h2:nth-child(6n)     { transform: rotate(3deg); }
   0%   { transform: translateY(0) rotate(-10deg); opacity: 0.7; }
   50%  { transform: translateY(-18px) rotate(10deg); opacity: 1; }
   100% { transform: translateY(0) rotate(-10deg); opacity: 0.7; }
+}
+
+@keyframes rainbow {
+  0% { background-position: 0% }
+  100% { background-position: 100% }
+}
+
+@keyframes sunsetFade {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
 }
