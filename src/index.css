@@ -6,8 +6,8 @@
   font-weight: 400;
 
   color-scheme: light;
-  color: #5D2D8E;
-  background-color: #B3E5FC;
+  color: #3D2010;
+  background-color: #F0E8D8;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,12 +17,12 @@
 
 a {
   font-weight: 700;
-  color: #E91E8C;
+  color: #E8543A;
   text-decoration: none;
 }
 a:hover {
-  color: #C2185B;
-  text-decoration: underline wavy #FFB6C1;
+  color: #C03020;
+  text-decoration: underline wavy #F5A83C;
 }
 
 body {
@@ -32,10 +32,10 @@ body {
   min-height: 100vh;
   background: linear-gradient(
     180deg,
-    #B3E5FC 0%,
-    #E1F5FE 25%,
-    #FCE4EC 60%,
-    #F3E5F5 100%
+    #F0E8D8 0%,
+    #D8CCBC 20%,
+    #C0CCC8 50%,
+    #9AB8C4 100%
   );
   background-attachment: fixed;
   overflow-x: hidden;
@@ -45,8 +45,8 @@ h1 {
   font-family: 'Fredoka One', 'Comic Sans MS', cursive;
   font-size: 3.2em;
   line-height: 1.25;
-  color: #E91E8C;
-  text-shadow: 3px 3px 0 #FFB6C1, 5px 5px 0 #CE93D8;
+  color: #E8543A;
+  text-shadow: 3px 3px 0 #F5A83C, 5px 5px 0 #C9A870;
   overflow-wrap: break-word;
   word-break: break-word;
 }
@@ -54,51 +54,48 @@ h1 {
 h2 {
   overflow-wrap: break-word;
   word-break: break-word;
-}
-
-h2 {
   font-family: 'Fredoka One', 'Comic Sans MS', cursive;
-  color: #7B1FA2;
-  text-shadow: 2px 2px 0 #CE93D8;
+  color: #5C3820;
+  text-shadow: 2px 2px 0 #F5A83C;
 }
 
 h3 {
   font-family: 'Bubblegum Sans', cursive;
-  color: #00838F;
+  color: #1E4A40;
 }
 
 button {
   border-radius: 50px;
-  border: 3px solid #CE93D8;
+  border: 3px solid #3CBFB0;
   padding: 0.6em 1.8em;
   font-size: 1em;
   font-weight: 700;
   font-family: 'Bubblegum Sans', cursive;
-  background-color: #F8BBD0;
-  color: #880E4F;
+  background-color: #C8EAE6;
+  color: #1E4A40;
   cursor: pointer;
   transition: all 0.2s ease;
-  box-shadow: 3px 3px 0 #CE93D8;
+  box-shadow: 3px 3px 0 #3CBFB0;
 }
 button:hover {
-  background-color: #FCE4EC;
+  background-color: #E0F5F2;
   transform: translateY(-2px);
-  box-shadow: 5px 5px 0 #CE93D8;
+  box-shadow: 5px 5px 0 #3CBFB0;
 }
 button:focus,
 button:focus-visible {
-  outline: 4px auto #E91E8C;
+  outline: 4px auto #E8543A;
 }
 
 table thead tr {
-  background-color: #CE93D8 !important;
-  color: #4A0072 !important;
+  background-color: #3CBFB0 !important;
+  color: #0A3028 !important;
 }
 
 table tbody tr:nth-child(even) {
-  background-color: #FCE4EC;
+  background-color: #FBE8CC;
 }
 
 table tbody tr:nth-child(odd) {
-  background-color: #F3E5F5;
+  background-color: #EAF5F2;
 }

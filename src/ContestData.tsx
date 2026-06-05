@@ -5,9 +5,9 @@ import { LocationAccess } from './LocationAccess';
 
 export const ContestData = () => (
   <>
-    <h1>lovely dates</h1>
+    <h1>2026 dates for your agenda</h1>
     {TituloFechas()}
-    <h1>lovely place</h1>
+    <h1>a lovely place</h1>
     {TituloSamil()}
     {LocationAccess()}
   </>

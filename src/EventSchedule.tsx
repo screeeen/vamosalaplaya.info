@@ -75,7 +75,7 @@ export const EventSchedule = () => {
 
   return (
     <div id="eventschedule">
-      <h2>schedule</h2>
+      <h1>schedule</h1>
 
       {schedule.map(({ day, events }) => (
         <div key={day} style={{ marginBottom: '2rem' }}>
@@ -89,7 +89,7 @@ export const EventSchedule = () => {
             }}
           >
             <thead>
-              <tr style={{ backgroundColor: '#000', color: '#fff' }}>
+              <tr>
                 <th style={{ border: '1px solid #ccc', padding: '0.5rem' }}>
                   Time
                 </th>
@@ -104,7 +104,7 @@ export const EventSchedule = () => {
                 const rowStyle = isHighlighted
                   ? {
                       backgroundColor: 'yellow',
-                      color: 'black',
+                      color: '#3D2010',
                       fontWeight: 'bold',
                     }
                   : {};

@@ -47,11 +47,11 @@ h1, h2 {
   font-weight: bold;
   font-size: 2.2rem;
   text-align: center;
-  background: linear-gradient(45deg, #E91E8C, #9C27B0, #3F51B5, #00BCD4, #4CAF50, #FFEB3B, #FF5722);
+  background: linear-gradient(45deg, #E8543A, #F5A83C, #C9A870, #3CBFB0, #9ABCCC, #1E4A40);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  filter: drop-shadow(2px 2px 0px rgba(200,100,200,0.4));
+  filter: drop-shadow(2px 2px 0px rgba(245,168,60,0.4));
 }
 
 .categoryTitle {
@@ -64,25 +64,25 @@ h1, h2 {
 }
 
 .adaptiveTitle {
-  background: linear-gradient(to right, #43A047, #7B1FA2);
+  background: linear-gradient(to right, #3CBFB0, #1E4A40);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .womentitle {
-  background: linear-gradient(to right, #E91E8C, #FF9800);
+  background: linear-gradient(to right, #E8543A, #F5A83C);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .miniramp {
-  background: linear-gradient(to right, #FFD600, #00897B);
+  background: linear-gradient(to right, #F5A83C, #3CBFB0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .mentitle {
-  background: linear-gradient(to right, #E53935, #7E57C2);
+  background: linear-gradient(to right, #C03020, #5C3820);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -110,31 +110,32 @@ h1, h2 {
   font-size: 0.6rem;
   display: flex;
   align-self: baseline;
-  color: #CE93D8;
+  color: #C9A870;
 }
 
 #portraits {
   height: 85%;
   width: 70%;
-  filter: drop-shadow(3px 3px 0px #CE93D8) drop-shadow(-1px -1px 0px #F8BBD0);
+  filter: drop-shadow(3px 3px 0px #3CBFB0) drop-shadow(-1px -1px 0px #F5A83C);
   z-index: 1;
 }
 
 img {
   width: 100%;
-  border-radius: 24px;
-  box-shadow: 0 6px 24px rgba(206, 147, 216, 0.5);
-
+  border-radius: 0;
+  box-shadow: none;
+  mask-image: radial-gradient(ellipse 88% 88% at 50% 50%, black 55%, transparent 100%);
+  -webkit-mask-image: radial-gradient(ellipse 88% 88% at 50% 50%, black 55%, transparent 100%);
 }
 
 /* GENERAL TEXT */
 .generaltext {
   padding: 1rem;
   text-align: start;
-  background: rgba(255, 255, 255, 0.55);
+  background: rgba(200, 222, 218, 0.55);
   border-radius: 24px;
   margin: 0.5rem;
-  box-shadow: 0 4px 16px rgba(206, 147, 216, 0.25), 0 0 0 2px rgba(248,187,208,0.4);
+  box-shadow: 0 4px 16px rgba(92, 154, 175, 0.25), 0 0 0 2px rgba(154, 188, 204, 0.4);
   backdrop-filter: blur(4px);
 }
 
@@ -152,7 +153,7 @@ img {
 
 #donts li::before {
   content: '♥';
-  color: #E91E8C;
+  color: #E8543A;
   font-weight: bold;
   position: absolute;
   left: 0;
@@ -160,7 +161,7 @@ img {
 }
 
 #donts strong {
-  color: #C2185B;
+  color: #C03020;
 }
 
 @keyframes heartbeat {
@@ -173,24 +174,24 @@ img {
 }
 
 ul li::marker {
-  color: #E91E8C;
+  color: #E8543A;
 }
 
 /* tables */
 table {
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 4px 16px rgba(206,147,216,0.3);
+  box-shadow: 0 4px 16px rgba(60, 191, 176, 0.3);
 }
 
 table td {
-  border-color: rgba(206,147,216,0.3) !important;
+  border-color: rgba(60, 191, 176, 0.3) !important;
 }
 
-/* schedule highlighted row override to rainbow */
+/* schedule highlighted row */
 tr[style*="background-color: yellow"] {
-  background: linear-gradient(90deg, #FFD6E7, #FFF3CD, #D1F2EB) !important;
-  color: #5D2D8E !important;
+  background: linear-gradient(90deg, #FAD5A0, #FBE8CC, #C8DEDA) !important;
+  color: #3D2010 !important;
 }
 
 @media (max-width: 640px) {
@@ -290,7 +291,7 @@ h2:nth-child(6n)     { transform: rotate(1.5deg); }
 .star-shape {
   width: 56px;
   height: 56px;
-  background: linear-gradient(135deg, #FFD600, #FF6F00);
+  background: linear-gradient(135deg, #F5A83C, #E8543A);
   clip-path: polygon(
     50% 0%,
     61% 35%,
@@ -304,8 +305,8 @@ h2:nth-child(6n)     { transform: rotate(1.5deg); }
     39% 35%
   );
   box-shadow:
-    0 0 20px 5px #FFE57F,
-    0 2px 12px 0 #FF6F00;
+    0 0 20px 5px #FAD5A0,
+    0 2px 12px 0 #E8543A;
   position: relative;
   animation: kitch-star-spin 2.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 1;
 }
@@ -313,13 +314,13 @@ h2:nth-child(6n)     { transform: rotate(1.5deg); }
   font-family: 'Fredoka One', 'Comic Sans MS', cursive, sans-serif;
   font-size: 1.3rem;
   color: #ffffff;
-  background: linear-gradient(135deg, #E91E8C, #9C27B0);
+  background: linear-gradient(135deg, #E8543A, #C03020);
   border-radius: 1.2em 0.8em 1.2em 0.8em/1em 1.2em 0.8em 1.2em;
   padding: 0.4em 1.2em;
   box-shadow:
-    0 2px 8px rgba(233,30,140,0.4),
-    0 0 0 4px #FCE4EC;
-  border: 2px dashed #FCE4EC;
+    0 2px 8px rgba(232, 84, 58, 0.4),
+    0 0 0 4px #FAD5A0;
+  border: 2px dashed #FAD5A0;
   margin-left: 0.2em;
   transform: rotate(-6deg);
   letter-spacing: 0.04em;

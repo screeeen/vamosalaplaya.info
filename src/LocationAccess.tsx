@@ -27,18 +27,17 @@ export const LocationAccess = () => {
     <>
       <div id="locationaccess">
         <img src={urlPic} />
-        <ul
-          style={{
-            background: 'white',
-            color: 'black',
-            padding: '1rem',
-            textAlign: 'center',
-          }}
-        >
-          <li>Madrid: 580 kilometers</li>
-          <li>Barcelona: 1100 kilometers</li>
-        </ul>
-        <h1>lovely skateboarding</h1>
+        <p style={{
+          textAlign: 'center',
+          fontSize: '0.9rem',
+          color: '#3D2010',
+          opacity: 0.75,
+          margin: '0.5rem 0 0',
+          letterSpacing: '0.04em',
+        }}>
+          Madrid 580 km · Barcelona 1100 km
+        </p>
+        <h1>skateboarding</h1>
         {/* <img src={urlBlur2} /> */}
         <img src={urlBlur3} />
         <img src={urlBlur4} />
@@ -47,7 +46,7 @@ export const LocationAccess = () => {
         <img src={urlBlur7} />
         <img src={urlBlur6} />
         <p>Lino Escuris 📷</p>
-        <h1> lovely vibes...</h1>
+        <h1>atlantic vibes...</h1>
         {/* <img src={urlPuesta2} /> */}
         {/* <img src={urlPuesta3} /> */}
         <img src={urlPuesta7} />

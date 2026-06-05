@@ -17,7 +17,7 @@ import AccommodationInfo from './AccomodationInfo.tsx';
 const App = () => {
   return (
     <>
-      <h1>hey... how vigoes...?</h1>
+      {/* <h1>hey... how vigoes...?</h1> */}
       <h3>this is your fave lovely coach guide to</h3>
       <h1>MARISQUIÑO 2026</h1>
       <h2 className="animate__animated animate__hinge">SUPER CONTEST!</h2>
@@ -26,7 +26,7 @@ const App = () => {
       <div className="generaltext">{ContestData()}</div>
 
       <h1 style={{ textAlign: 'left', marginLeft: '1rem' }}>
-        a lovely contest
+        a contest or a marathon, you name it
       </h1>
 
       <div className="generaltext">{WCSPrizeTable()}</div>
@@ -37,7 +37,7 @@ const App = () => {
       <Winners />
 
       <p style={{ padding: '0 1rem' }}>
-        <strong style={{ color: 'pink', fontStyle: 'italic' }}>
+        <strong style={{ color: '#E8543A', fontStyle: 'italic' }}>
           "We are not the champagne of skateboarding 👯‍♀️👯‍♀️👯‍♀️"
         </strong>{' '}
         - Course builder

@@ -45,7 +45,7 @@ export const WCSPrizeTable = () => {
   return (
     <div id="wcsprizetable" style={{ textAlign: 'center' }}>
       <h2 className="animate__slideOutDown" style={{ overflowWrap: 'break-word', wordBreak: 'break-all' }}>
-        €€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€ win if you are good at skateboarding or just have fun
+        prizes prizes prizes prizes prizes prizes prizes prizes prizes prizes prizes prizes
       </h2>
       {/* <img src={urlPrices} style={{ maxWidth: '100%' }} /> */}
 

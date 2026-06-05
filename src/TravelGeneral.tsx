@@ -3,7 +3,7 @@ import React from "react";
 const TravelGeneral = () => {
   return (
     <>
-      <h1>travel</h1>
+      <h1>travel options</h1>
       <h2 style={{ fontStyle: "italic" }}>TRAINS!</h2>
       <ul>
         <li>
