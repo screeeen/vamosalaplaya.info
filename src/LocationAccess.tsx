@@ -45,7 +45,6 @@ export const LocationAccess = () => {
         <img src={urlBlur5} />
         <img src={urlBlur7} />
         <img src={urlBlur6} />
-        <p>Lino Escuris 📷</p>
         <h1>atlantic vibes...</h1>
         {/* <img src={urlPuesta2} /> */}
         {/* <img src={urlPuesta3} /> */}
@@ -54,7 +53,7 @@ export const LocationAccess = () => {
         {/* <img src={urlPuesta5} /> */}
         <img src={urlPuesta4} />
         <img src={urlPuesta1} />
-        <p>Raisa Abal 📷</p>
+        
         
         <h1>location</h1>
         {samilMap()}
