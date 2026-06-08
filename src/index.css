@@ -28,6 +28,7 @@ a:hover {
 body {
   margin: 0;
   display: block;
+  font-size: 1.1em;
   min-width: 320px;
   min-height: 100vh;
   background: linear-gradient(
