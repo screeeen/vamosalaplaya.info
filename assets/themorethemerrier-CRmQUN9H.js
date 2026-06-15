@@ -1,0 +1,1 @@
+import{c as e,j as t,r,A as o}from"./App-D9SioqNz.js";e.createRoot(document.getElementById("root")).render(t.jsx(r.StrictMode,{children:t.jsx(o,{hideStayTravel:!0})}));
