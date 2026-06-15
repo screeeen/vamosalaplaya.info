@@ -4,7 +4,7 @@ import emojiFlags from 'emoji-flags';
 import './App.css';
 
 export const generateImage = url => {
-  const urlPic = `${window.location.href}assets${url}`;
+  const urlPic = `${import.meta.env.BASE_URL}assets${url}`;
   return url && <img id="portraits" src={urlPic} alt="*" />;
 };
 

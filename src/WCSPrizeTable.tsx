@@ -40,7 +40,7 @@ export const WCSPrizeTable = () => {
     </div>
   );
 
-  // const urlPrices = `${window.location.href}assets/promoimages/prizes.jpg`;
+  // const urlPrices = `${import.meta.env.BASE_URL}assets/promoimages/prizes.jpg`;
 
   return (
     <div id="wcsprizetable" style={{ textAlign: 'center' }}>

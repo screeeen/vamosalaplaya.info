@@ -1,0 +1,15 @@
+body.theme-dark {
+  color: #E8DFD0;
+  background: linear-gradient(
+    180deg,
+    #1A1410 0%,
+    #2A2018 30%,
+    #16201E 70%,
+    #0C1418 100%
+  );
+  background-attachment: fixed;
+}
+
+body.theme-dark #root::before {
+  display: none;
+}

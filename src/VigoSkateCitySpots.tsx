@@ -8,12 +8,12 @@ export const VigoSkateCitySpots = () => {
 
 
         <img
-          src={`${window.location.href}assets/images/spotGX.png`}
+          src={`${import.meta.env.BASE_URL}assets/images/spotGX.png`}
           alt="Downhill in Vigo"
           style={{ width: '100%', maxWidth: 600 }}
         />
         <img
-          src={`${window.location.href}assets/images/spotGX2.png`}
+          src={`${import.meta.env.BASE_URL}assets/images/spotGX2.png`}
           alt="Downhill in Vigo"
           style={{ width: '100%', maxWidth: 600 }}
         />

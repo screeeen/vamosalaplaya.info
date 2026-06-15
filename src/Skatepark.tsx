@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const Skatepark = () => {
-  const baseUrl = `${window.location.href}assets/promoimages/`;
+  const baseUrl = `${import.meta.env.BASE_URL}assets/promoimages/`;
   const img1 = `${baseUrl}D_14.jpg`;
   const img2 = `${baseUrl}D_15.jpg`;
   const img3 = `${baseUrl}D_16.jpg`;

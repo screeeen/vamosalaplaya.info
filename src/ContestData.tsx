@@ -3,13 +3,13 @@ import { TituloFechas } from './TituloFechas';
 import { TituloSamil } from './TituloSamil';
 import { LocationAccess } from './LocationAccess';
 
-export const ContestData = () => (
+export const ContestData = ({ hideStayTravel = false } = {}) => (
   <>
     <h1>2026 dates for your agenda</h1>
     {TituloFechas()}
     <h1>a lovely place</h1>
     {TituloSamil()}
-    {LocationAccess()}
+    {LocationAccess({ hideStayTravel })}
   </>
 );
 

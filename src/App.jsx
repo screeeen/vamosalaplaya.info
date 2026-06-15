@@ -14,7 +14,7 @@ import KitschStar from './KitschStar.tsx';
 import { Skatepark } from './Skatepark.tsx';
 import AccommodationInfo from './AccomodationInfo.tsx';
 
-const App = () => {
+const App = ({ hideStayTravel = false }) => {
   return (
     <>
       {/* <h1>hey... how vigoes...?</h1> */}
@@ -22,8 +22,8 @@ const App = () => {
       <h1>MARISQUIÑO 2026</h1>
       <h2 className="animate__animated animate__hinge">SUPER CONTEST!</h2>
       <h3>(your coach will be proud!)</h3>
-      <img src={`${window.location.href}assets/promoimages/stablishing_shot.jpg`} />
-      <div className="generaltext">{ContestData()}</div>
+      <img src={`${import.meta.env.BASE_URL}assets/promoimages/stablishing_shot.jpg`} />
+      <div className="generaltext">{ContestData({ hideStayTravel })}</div>
 
       <h1 style={{ textAlign: 'left', marginLeft: '1rem' }}>
         a contest or a marathon, you name it
