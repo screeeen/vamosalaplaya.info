@@ -116,7 +116,7 @@ h1, h2 {
 #portraits {
   height: 85%;
   width: 70%;
-  filter: drop-shadow(3px 3px 0px #3CBFB0) drop-shadow(-1px -1px 0px #F5A83C);
+  filter: grayscale(100%) drop-shadow(3px 3px 0px #3CBFB0) drop-shadow(-1px -1px 0px #F5A83C);
   z-index: 1;
 }
 
