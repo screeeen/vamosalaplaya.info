@@ -104,87 +104,6 @@ h1, h2 {
   height: 80px;
   width: 80px;
   margin: 1rem;
-  position: relative;
-}
-
-/* orla iluminada alrededor de cada cara */
-.cell::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 62px;
-  height: 74px;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  border: 3px solid #F5A83C;
-  box-shadow:
-    0 0 12px 3px rgba(245, 168, 60, 0.9),
-    0 0 26px 8px rgba(232, 84, 58, 0.6),
-    0 0 40px 12px rgba(60, 191, 176, 0.5),
-    inset 0 0 12px rgba(245, 168, 60, 0.5);
-  z-index: 1;
-  pointer-events: none;
-  animation:
-    orlaPulse 1.8s ease-in-out infinite,
-    orlaHue 5s linear infinite;
-}
-
-/* halo giratorio kitsch detrás de la orla */
-.cell::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 78px;
-  height: 90px;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  background: conic-gradient(
-    from 0deg,
-    #E8543A, #F5A83C, #FFE45E, #3CBFB0, #9AB8C4, #E8543A
-  );
-  filter: blur(6px);
-  opacity: 0.55;
-  z-index: 0;
-  pointer-events: none;
-  animation:
-    orlaSpin 3.5s linear infinite,
-    orlaHueBlur 5s linear infinite;
-}
-
-@keyframes orlaPulse {
-  0%, 100% {
-    box-shadow:
-      0 0 12px 3px rgba(245, 168, 60, 0.9),
-      0 0 26px 8px rgba(232, 84, 58, 0.6),
-      0 0 40px 12px rgba(60, 191, 176, 0.5),
-      inset 0 0 12px rgba(245, 168, 60, 0.5);
-    border-color: #F5A83C;
-  }
-  50% {
-    box-shadow:
-      0 0 18px 5px rgba(255, 228, 94, 1),
-      0 0 34px 12px rgba(232, 84, 58, 0.8),
-      0 0 54px 18px rgba(60, 191, 176, 0.7),
-      inset 0 0 16px rgba(255, 228, 94, 0.7);
-    border-color: #FFE45E;
-  }
-}
-
-@keyframes orlaSpin {
-  from { transform: translate(-50%, -50%) rotate(0deg); }
-  to { transform: translate(-50%, -50%) rotate(360deg); }
-}
-
-@keyframes orlaHue {
-  from { filter: hue-rotate(0deg); }
-  to { filter: hue-rotate(360deg); }
-}
-
-@keyframes orlaHueBlur {
-  from { filter: blur(6px) hue-rotate(0deg); }
-  to { filter: blur(6px) hue-rotate(360deg); }
 }
 
 .yearflag {
@@ -198,7 +117,7 @@ h1, h2 {
   height: 85%;
   width: 70%;
   filter: grayscale(100%) drop-shadow(3px 3px 0px #3CBFB0) drop-shadow(-1px -1px 0px #F5A83C);
-  z-index: 2;
+  z-index: 1;
 }
 
 img {
