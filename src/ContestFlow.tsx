@@ -83,8 +83,7 @@ export const ContestFlow = () => {
           </p>
         </li>
         <li>
-          <strong>Electroparia:</strong> 80s, Pop Classics, Weird Stuff but
-          chill for rolling
+          <strong>Mystery Guest</strong> "your fave tunes, you didn't know"
           <p style={{ fontStyle: 'italic' }}>-"this year I won't come"</p>
         </li>
       </ul>
