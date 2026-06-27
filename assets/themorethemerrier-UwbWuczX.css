@@ -1,0 +1,1 @@
+.page-watermark{position:fixed;left:.4rem;top:50%;transform:translateY(-50%);font-size:.5rem;line-height:1.2;letter-spacing:.05em;text-align:left;color:#3d201059;pointer-events:none;z-index:9999;font-family:Bubblegum Sans,cursive}body.theme-light{background:linear-gradient(180deg,#f6f1e8,#e4dbce 20%,#d0dbd7 50%,#b6d0db);background-attachment:fixed}

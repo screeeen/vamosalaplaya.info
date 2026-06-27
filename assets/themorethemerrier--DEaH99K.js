@@ -1,0 +1,1 @@
+import{c as r,j as t,r as a,A as o}from"./App-Cre79ung.js";document.body.classList.add("theme-light");const e=document.createElement("div");e.className="page-watermark";e.innerHTML="the more<br />the merrier";document.body.appendChild(e);r.createRoot(document.getElementById("root")).render(t.jsx(a.StrictMode,{children:t.jsx(o,{hideStayTravel:!0})}));
