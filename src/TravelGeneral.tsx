@@ -58,27 +58,20 @@ const TravelGeneral = () => {
         <li>
           <strong>Vigo (VGO)</strong> — national flights with Iberia, Air
           Europa, Volotea and Vueling.
-          <br />
-          Getting into town: city bus line L9A, or taxi (≈18 €).
         </li>
         <li>
           <strong>Santiago de Compostela (SCQ)</strong> — national and
           international flights with Ryanair, Vueling, Iberia and Lufthansa.
-          <br />
-          Getting into town: train (Renfe to Vigo), bus, or car.
         </li>
         <li>
           <strong>Porto, Portugal (OPO)</strong> — many low-cost airlines, 150
           km away.
-          <br />
-          Getting into town: direct Autna bus to Vigo.
         </li>
         <li>
           <strong>A Coruña (LCG)</strong> — domestic flights, 160 km away.
-          <br />
-          Getting into town: train or car.
         </li>
       </ul>
+      <p>We will pick you up at the airport!</p>
     </>
   );
 };

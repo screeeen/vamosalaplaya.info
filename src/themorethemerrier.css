@@ -1,15 +1,11 @@
-body.theme-dark {
-  color: #E8DFD0;
+/* /themorethemerrier — slightly lighter than the default palette */
+body.theme-light {
   background: linear-gradient(
     180deg,
-    #1A1410 0%,
-    #2A2018 30%,
-    #16201E 70%,
-    #0C1418 100%
+    #F6F1E8 0%,
+    #E4DBCE 20%,
+    #D0DBD7 50%,
+    #B6D0DB 100%
   );
   background-attachment: fixed;
-}
-
-body.theme-dark #root::before {
-  display: none;
 }
